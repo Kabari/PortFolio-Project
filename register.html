@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    <!-- navigation section -->
+    <header>
+        <a class="logo" href="index.html">E</a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li id="log"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- navigation section -->
+    
+    <!-- registration section -->
+    <section class="register-section">
+        <div class="reg-container">
+            <div class="reg-title">Registration</div>
+
+            <form action="" method="post">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter your last name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone</span>
+                        <input type="tel" placeholder="Enter your  number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Gender</span>
+                        <select value="gender">
+                            <option name="male" id="male">Male</option>
+                            <option name="female" id="female">Female</option>
+                            <option name="non-binary" id="non-binary">Non-binary</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Country</span>
+                        <input type="text" placeholder="Enter your country" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">State/Province</span>
+                        <input type="text" placeholder="Enter your state/province" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Enter your username" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="password" placeholder="Confirm your password" required>
+                    </div>
+                </div>
+                <div class="button">
+                    <input class="reg-btn" type="submit" value="Register ">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- registration section -->
+
+</body>
+</html>
